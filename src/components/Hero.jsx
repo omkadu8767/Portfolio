@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Download, ExternalLink, Github, Linkedin } from 'lucide-react';
+import { Download, Github, Linkedin } from 'lucide-react';
 
 export const Hero = () => {
     const socialLinks = [
@@ -13,7 +13,7 @@ export const Hero = () => {
     return (
         <section id="home" className="min-h-screen flex items-center justify-center relative z-10 px-4">
             <div className="text-center max-w-4xl mx-auto">
-                <div className="mb-8">
+                <div className="mt-5">
                     <img
                         src="/Om Nilesh Kadu_CSE.png"
                         alt="Profile"
