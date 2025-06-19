@@ -4,6 +4,9 @@ import { Textarea } from '@/components/ui/textarea';
 import emailjs from 'emailjs-com';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { useRef, useState } from 'react';
+import { toast } from 'react-toastify';
+import { Spinner } from './Spinner';
+import { SpinnerOverlay } from './SpinnerOverlay';
 
 export const Contact = () => {
     const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
@@ -16,6 +19,7 @@ export const Contact = () => {
         message: ''
     });
     const formRef = useRef();
+    const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
         setFormData({
@@ -26,6 +30,7 @@ export const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setLoading(true);
         emailjs.sendForm(
             serviceId,    // EmailJS service id
             templateId,   //  EmailJS template id
@@ -33,15 +38,19 @@ export const Contact = () => {
             userId          // EmailJS public key
         )
             .then(() => {
-                alert('Message sent! Thank you for contacting me');
+                setLoading(false);
+                // alert('Message sent! Thank you for contacting me');
+                toast.success('Message sent! Thank you for contacting me', { position: "top-right" });
                 setFormData({ name: '', email: '', message: '' });
             }, () => {
-                alert('Failed to send message.');
+                setLoading(false);
+                toast.error('Failed to send message.', { position: "top-right" });
             });
     };
 
     return (
         <section id="contact" className="py-20 px-4 relative z-10">
+            {loading && <SpinnerOverlay />}
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     Get In Touch
@@ -140,10 +149,9 @@ export const Contact = () => {
 
                             <Button
                                 type="submit"
-                                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white"
+                                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white" disabled={loading}
                             >
-                                <Send size={18} className="mr-2" />
-                                Send Message
+                                {loading ? <Spinner /> : <><Send size={18} className="mr-2" />Send Message</>}
                             </Button>
                         </form>
                     </div>
