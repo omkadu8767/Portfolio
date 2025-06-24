@@ -31,9 +31,9 @@ export const Projects = () => {
             title: 'Swastha Bharat Portal',
             description: 'A unified digital health platform providing access to government-approved medicines, personalized prescriptions, nearby pharmacy suggestions, dose reminders, and easy appointment booking.',
             image: '/medlogo.png',
-            liveLink: 'https://omkadu8767.github.io/Tech-Tesseract-Hackathon/',
-            githubLink: 'https://github.com/omkadu8767/Tech-Tesseract-Hackathon',
-            tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Firebase', 'DialogFlow', 'Map API', 'Razorpay API']
+            liveLink: 'https://swastha-bharat-portal.onrender.com/',
+            githubLink: 'https://github.com/omkadu8767/Swastha-Bharat-Portal',
+            tech: ['React.js', 'Vite', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB']
         }
     ];
 
