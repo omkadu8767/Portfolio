@@ -4,12 +4,12 @@ import { ExternalLink, Github } from 'lucide-react';
 export const Projects = () => {
     const projects = [
         {
-            title: 'NotesWala',
-            description: 'NotesWala is a modern, secure, and user-friendly full-stack web application for managing your notes efficiently. It provides a seamless experience for users to create, edit, delete and organize their notes from any device.',
-            image: '/NotesWala.png',
-            liveLink: 'https://noteswala-dn0u.onrender.com/',
-            githubLink: 'https://github.com/omkadu8767/NotesWala',
-            tech: ['React.js', 'Vite', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB']
+            title: 'InternHQ',
+            description: 'InternHQ is a comprehensive full-stack internship management platform built with the MEVN stack (MongoDB, Express.js, Vue.js, Node.js). It enables admins to create tasks, assign them to interns, track submissions, and evaluate performance with detailed analytics and leaderboards for insights.',
+            image: '/InternHQ.png',
+            liveLink: 'https://internhq-frontend.onrender.com/',
+            githubLink: 'https://github.com/omkadu8767/InternHQ',
+            tech: ['Vue.js', 'Vuetify', 'JWT', 'JavaScript', 'Node.js', 'Express', 'MongoDB']
         },
         {
             title: 'Resume-Scorer',

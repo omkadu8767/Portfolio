@@ -7,13 +7,13 @@ export const Internships = () => {
             company: 'ApexaIQ Pvt. Ltd',
             logo: '/apexa.png',
             position: 'Technical Intern',
-            duration: 'Feb 2025 - Mar 2025',
+            duration: 'Feb 2025 - Mar 2025 & Aug 2025 - Sep 2025',
             location: 'Shegaon, Maharashtra',
             workDone: [
-                'Worked on Python Scripting, Selenium-based web scraping, and automated testing with Pytest.',
-                'Explored DevOps & DevSecOps fundamentals, using Docker & Kubernetes for containerization and orchestration.',
-                'Gained insights into real-world tech applications in inventory, security, productivity, and finance through market and competitor analysis.',
-                'Participated in Team Discussions regarding Code Reviews, Daily Tasks, etc.'
+                'Built InternHQ task management system using Vue.js, Vuetify, Node.js, MongoDB, and JWT',
+                'Developed Python Selenium scripts for web scraping and automation',
+                'Explored DevOps concepts with Git, Docker, and Postman',
+                'Gained practical experience in full‑stack development, software testing, and team collaboration through code reviews and daily project discussions.'
             ]
         },
         {
