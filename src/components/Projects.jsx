@@ -4,6 +4,14 @@ import { ExternalLink, Github } from 'lucide-react';
 export const Projects = () => {
     const projects = [
         {
+            title: '1688 to Shopify Product Importe',
+            description: '1688 to Shopify Product Importer is an automation tool that scrapes products from 1688.com, translates and processes product data, extracts variants and pricing, and imports listings directly into Shopify. Built with Node.js, Python (Playwright), and React, it also tracks imports using SQLite.',
+            image: '/Shopify.png',
+            liveLink: 'https://www.linkedin.com/posts/om-kadu-53305425a_softwareengineering-webscraping-shopifydevelopment-activity-7421787272892596224-I0x1',
+            githubLink: 'https://github.com/omkadu8767/ShopifyScrapper',
+            tech: ['Node.js', 'Python', 'React', 'Playwright', 'SQLite', 'Cap-Solver API', 'ChaptGPT API']
+        },
+        {
             title: 'InternHQ',
             description: 'InternHQ is a comprehensive full-stack internship management platform built with the MEVN stack (MongoDB, Express.js, Vue.js, Node.js). It enables admins to create tasks, assign them to interns, track submissions, and evaluate performance with detailed analytics and leaderboards for insights.',
             image: '/InternHQ.png',
