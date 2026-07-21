@@ -1,5 +1,4 @@
-import React from 'react';
-import { ExternalLink, Award } from 'lucide-react';
+import { Award, ExternalLink } from 'lucide-react';
 
 export const Certifications = () => {
     const certifications = [
@@ -8,21 +7,21 @@ export const Certifications = () => {
             organization: 'NPTEL',
             date: '2023',
             link: 'https://drive.google.com/file/d/1RieHweveFrcOWFdrMjxVTcVRgrLtuhJ8/view?usp=sharing',
-            logo: '/nptel.jpg'
+            logo: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/nptel.jpg'
         },
         {
             name: 'Data Structures and Algorithms (DSA) For Campus Placements',
             organization: 'ExcelR',
             date: '2024',
             link: 'https://drive.google.com/file/d/1ulIcTCmR7AGsmQmb3cGw4bsdQB4HmKfz/view?usp=sharing',
-            logo: '/excelr.jpg'
+            logo: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/excelr.jpg'
         },
         {
             name: 'Postman API Fundamentals Student Expert',
             organization: 'Postman',
             date: '2024',
             link: 'https://drive.google.com/file/d/13tABDCjq2ZnxjvNrsZq-IwUMKsXTdjW9/view?usp=sharing',
-            logo: '/postman.jpg'
+            logo: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/postman.jpg'
         },
         {
             name: ' Fundamentals of Digital Marketing',

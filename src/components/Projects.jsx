@@ -6,7 +6,7 @@ export const Projects = () => {
         {
             title: '1688 to Shopify Product Importe',
             description: '1688 to Shopify Product Importer is an automation tool that scrapes products from 1688.com, translates and processes product data, extracts variants and pricing, and imports listings directly into Shopify. Built with Node.js, Python (Playwright), and React, it also tracks imports using SQLite.',
-            image: '/Shopify.png',
+            image: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/Shopify.png',
             liveLink: 'https://www.linkedin.com/posts/om-kadu-53305425a_softwareengineering-webscraping-shopifydevelopment-activity-7421787272892596224-I0x1',
             githubLink: 'https://github.com/omkadu8767/ShopifyScrapper',
             tech: ['Node.js', 'Python', 'React', 'Playwright', 'SQLite', 'Cap-Solver API', 'ChaptGPT API']
@@ -14,7 +14,7 @@ export const Projects = () => {
         {
             title: 'InternHQ',
             description: 'InternHQ is a comprehensive full-stack internship management platform built with the MEVN stack (MongoDB, Express.js, Vue.js, Node.js). It enables admins to create tasks, assign them to interns, track submissions, and evaluate performance with detailed analytics and leaderboards for insights.',
-            image: '/InternHQ.png',
+            image: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/InternHQ.png',
             liveLink: 'https://internhq-frontend.onrender.com/',
             githubLink: 'https://github.com/omkadu8767/InternHQ',
             tech: ['Vue.js', 'Vuetify', 'JWT', 'JavaScript', 'Node.js', 'Express', 'MongoDB']
@@ -22,7 +22,7 @@ export const Projects = () => {
         {
             title: 'Resume-Scorer',
             description: 'A React-based web application designed to streamline resume evaluation using Natural Language Processing (NLP) techniques. It provides users with actionable insights to improve their resumes and helps hiring teams assess candidate fit more efficiently.',
-            image: '/ResumeScorer.png',
+            image: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/ResumeScorer.png',
             liveLink: 'https://resume-scorer-phi.vercel.app/',
             githubLink: 'https://github.com/omkadu8767/Resume-Scorer',
             tech: ['React.js', 'Tailwind CSS', 'Gemini LLM API by Google', 'NLP Library']
@@ -30,7 +30,7 @@ export const Projects = () => {
         {
             title: 'Warehouse Management System',
             description: 'A web-based warehouse management system built with Node.js and MySQL, enabling efficient tracking of racks, categories, and items with support for barcode-based inventory operations.',
-            image: '/warehouse.png',
+            image: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/warehouse.png',
             liveLink: 'https://warehouse-management-whjr.onrender.com/',
             githubLink: 'https://github.com/omkadu8767/Warehouse_Management',
             tech: ['HTML', 'CSS', 'JavaScript', 'MySQL', 'Node.js', 'Express.js', 'PlanetScale (MySQL DBaaS)', 'Aiven (Cloud Infrastructure for DBs)']
@@ -38,7 +38,7 @@ export const Projects = () => {
         {
             title: 'Swastha Bharat Portal',
             description: 'A unified digital health platform providing access to government-approved medicines, personalized prescriptions, nearby pharmacy suggestions, dose reminders, and easy appointment booking.',
-            image: '/medlogo.png',
+            image: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/medlogo.png',
             liveLink: 'https://swastha-bharat-portal.vercel.app/',
             githubLink: 'https://github.com/omkadu8767/Swastha-Bharat-Portal',
             tech: ['React.js', 'Vite', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB']

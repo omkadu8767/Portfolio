@@ -1,11 +1,10 @@
-import React from 'react';
 import { Calendar, MapPin } from 'lucide-react';
 
 export const Internships = () => {
     const internships = [
         {
             company: 'ApexaIQ Pvt. Ltd',
-            logo: '/apexa.png',
+            logo: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/apexa.png',
             position: 'Technical Intern',
             duration: 'Feb 2025 - Mar 2025 & Aug 2025 - Sep 2025',
             location: 'Shegaon, Maharashtra',
@@ -18,7 +17,7 @@ export const Internships = () => {
         },
         {
             company: 'Friends of Animal (NGO)',
-            logo: '/logo-foa.jpg',
+            logo: 'https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/logo-foa.jpg',
             position: 'Frontend Intern',
             duration: 'Feb 2024 – Oct 2024',
             location: 'Shegaon, Maharashtra',
