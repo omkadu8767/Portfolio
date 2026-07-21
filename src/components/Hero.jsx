@@ -15,7 +15,7 @@ export const Hero = () => {
             <div className="text-center max-w-4xl mx-auto">
                 <div className="mt-5">
                     <img
-                        src="/Om Nilesh Kadu_CSE.png"
+                        src="https://cdn.jsdelivr.net/gh/omkadu8767/Portfolio@main/public/Om%20Nilesh%20Kadu_CSE.png"
                         alt="Profile"
                         className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg shadow-blue-400/20"
                     />
@@ -26,11 +26,11 @@ export const Hero = () => {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-300 mb-4 animate-fade-in">
-                    Full Stack Developer & Java Enthusiast
+                    Java and MERN Stack Developer
                 </p>
 
                 <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto animate-fade-in">
-                    Final-year Computer Science student with strong problem-solving skills and the ability to quickly adapt to new technologies, seeking to contribute to impactful software development projects.
+                    Recent Computer Science graduate with strong problem-solving skills and the ability to quickly adapt to new technologies, seeking to contribute to impactful software development projects.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -48,7 +48,7 @@ export const Hero = () => {
                     ))}
                 </div>
 
-                <a href='https://drive.google.com/file/d/1T2XZoVCgF--o0N9VD9fUC84c1Z81VQil/view' target='_blank'><Button
+                <a href="https://drive.google.com/file/d/1dZvYE8nWDdiec6K7aL6xoTVcA_QN8_su/view?usp=sharing" target='_blank'><Button
                     className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                 >
                     <Download className="mr-2" size={20} />

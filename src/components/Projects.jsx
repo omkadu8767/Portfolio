@@ -39,7 +39,7 @@ export const Projects = () => {
             title: 'Swastha Bharat Portal',
             description: 'A unified digital health platform providing access to government-approved medicines, personalized prescriptions, nearby pharmacy suggestions, dose reminders, and easy appointment booking.',
             image: '/medlogo.png',
-            liveLink: 'https://swastha-bharat-portal.onrender.com/',
+            liveLink: 'https://swastha-bharat-portal.vercel.app/',
             githubLink: 'https://github.com/omkadu8767/Swastha-Bharat-Portal',
             tech: ['React.js', 'Vite', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB']
         }
